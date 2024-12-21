@@ -5,7 +5,7 @@ import { resolve } from "path";
 
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
-  base: "/canva/website/", // Base path for production
+  base: "/", // Base path for production
   build: {
     outDir: "public/react-editor/dist", // Production output directory
     emptyOutDir: true, // Ensure old files are removed
